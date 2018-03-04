@@ -6,5 +6,5 @@ target 'STKLeak' do
   use_frameworks!  
   
   # Pods for STKLeak
-  pod 'StreamingKit', :git => 'https://github.com/haritowa/StreamingKit.git', :commit => '12e7218848bc458af65c133a3817c8fecb5b6846'
+  pod 'StreamingKit', :git => 'https://github.com/haritowa/StreamingKit.git', :commit => 'e10c6480b60eb42db31ae43461f05eeae7cf73d4'
 end
