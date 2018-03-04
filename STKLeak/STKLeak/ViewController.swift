@@ -9,17 +9,17 @@
 import UIKit
 
 class ViewController: UIViewController {
+    private var audioPlayer: STKAudioPlayerLoudDeinit?
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    @IBAction func createAudioPlayer(_ sender: Any) {
+        audioPlayer?.dispose()
+        
+        audioPlayer = STKAudioPlayerLoudDeinit()
+        audioPlayer?.meteringEnabled = true
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func startPlayback(_ sender: Any) {
+        audioPlayer?.play(URL(string: "http://www.abstractpath.com/files/audiosamples/sample.mp3")!)
     }
-
-
 }
 

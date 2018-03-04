@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		509FB8F8C57DEE5AD5F3D93C /* Pods_STKLeak.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6A32ACFFDDAEA1513DD7996 /* Pods_STKLeak.framework */; };
+		EF4AD315204BFB4B003A5701 /* STKAudioPlayerLoudDeinit.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4AD314204BFB4B003A5701 /* STKAudioPlayerLoudDeinit.swift */; };
 		EFE0BACB204BFA33003AA396 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE0BACA204BFA33003AA396 /* AppDelegate.swift */; };
 		EFE0BACD204BFA33003AA396 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE0BACC204BFA33003AA396 /* ViewController.swift */; };
 		EFE0BAD0204BFA33003AA396 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFE0BACE204BFA33003AA396 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 		3BD74767CF5B7E7A459A36E8 /* Pods-STKLeak.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STKLeak.debug.xcconfig"; path = "Pods/Target Support Files/Pods-STKLeak/Pods-STKLeak.debug.xcconfig"; sourceTree = "<group>"; };
 		6AFC462F802685F3F6429228 /* Pods-STKLeak.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STKLeak.release.xcconfig"; path = "Pods/Target Support Files/Pods-STKLeak/Pods-STKLeak.release.xcconfig"; sourceTree = "<group>"; };
 		B6A32ACFFDDAEA1513DD7996 /* Pods_STKLeak.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STKLeak.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4AD314204BFB4B003A5701 /* STKAudioPlayerLoudDeinit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STKAudioPlayerLoudDeinit.swift; sourceTree = "<group>"; };
 		EFE0BAC7204BFA33003AA396 /* STKLeak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STKLeak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFE0BACA204BFA33003AA396 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFE0BACC204BFA33003AA396 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				EFE0BAD1204BFA33003AA396 /* Assets.xcassets */,
 				EFE0BAD3204BFA33003AA396 /* LaunchScreen.storyboard */,
 				EFE0BAD6204BFA34003AA396 /* Info.plist */,
+				EF4AD314204BFB4B003A5701 /* STKAudioPlayerLoudDeinit.swift */,
 			);
 			path = STKLeak;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFE0BACD204BFA33003AA396 /* ViewController.swift in Sources */,
+				EF4AD315204BFB4B003A5701 /* STKAudioPlayerLoudDeinit.swift in Sources */,
 				EFE0BACB204BFA33003AA396 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
