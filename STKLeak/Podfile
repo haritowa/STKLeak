@@ -1,0 +1,10 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'STKLeak' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!  
+  
+  # Pods for STKLeak
+  pod 'StreamingKit', :git => 'https://github.com/haritowa/StreamingKit.git', :commit => '12e7218848bc458af65c133a3817c8fecb5b6846'
+end

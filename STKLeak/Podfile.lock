@@ -1,0 +1,22 @@
+PODS:
+  - StreamingKit (0.1.30)
+
+DEPENDENCIES:
+  - StreamingKit (from `https://github.com/haritowa/StreamingKit.git`, commit `12e7218848bc458af65c133a3817c8fecb5b6846`)
+
+EXTERNAL SOURCES:
+  StreamingKit:
+    :commit: 12e7218848bc458af65c133a3817c8fecb5b6846
+    :git: https://github.com/haritowa/StreamingKit.git
+
+CHECKOUT OPTIONS:
+  StreamingKit:
+    :commit: 12e7218848bc458af65c133a3817c8fecb5b6846
+    :git: https://github.com/haritowa/StreamingKit.git
+
+SPEC CHECKSUMS:
+  StreamingKit: 70ca8608c206864b4d54a577eacb3c8bf7c72209
+
+PODFILE CHECKSUM: ba3c7105f9718a59f1977b81842b4632dbad1f0e
+
+COCOAPODS: 1.4.0
